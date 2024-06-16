@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taskReminder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</head>
+
+<body class="body" id="changeColor">
+    <!-- Botón para mostrar/ocultar la barra lateral -->
+    <div class="toggle-btn bg-light" id="tglbtn">☰</div>
+
+    <!-- Barra lateral -->
+    <div class="sidebar" id="sidebar">
+        <h3>Color de fondo</h3>
+        <button class="btn btn-light" id="white">light</button>
+        <button class="btn btn-dark" id="btnblack">dark</button>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h1 id="title">REMINDERS</h1>
+                <form>
+                    <div class="row">
+                        <div class="col-bg-3">
+                            <p id="newReminder">New reminder <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div id="remindersList">
+            
+        </div>
+    </div>
+</body>
+
+</html>
